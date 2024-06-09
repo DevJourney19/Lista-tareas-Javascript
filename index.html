@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Lista de tareas</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css.css" rel="stylesheet">
+    </head>
+    <body>
+        <header> 
+            <div>
+                <h1>Lista de tareas</h1>
+            </div>
+        </header>
+        <main>
+            <!--<p >HOLA MUNDO</p>-->
+            <form>
+                <input id="extraccion" type="text" placeholder="Ingrese una tarea"/>
+                <input class="boton_agregar" type="button" onclick="agregarTarea()" value="Agregar tarea" title="boton"/>
+            </form>
+            <ul id="listar_tarea">
+            </ul>
+        </main>
+        <script src="lista_tarea.js"></script>
+    </body>
+
+</html>

@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    /*margin: 20px;*/
+    background-color: rgba(42, 66, 122, 0.5);
+}
+h1{
+    text-align: center;
+    color: white;
+    background: rgb(60, 60, 60);
+    padding: 20px;
+    margin-bottom: 10px;
+}
+/*Estructura de la lista*/
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+/*Elemento de la lista*/
+li{
+    margin: 10px 0;
+    text-decoration: none;
+}
+main > form > input{
+    border-radius: 20px;
+    padding: 8px;
+    margin-top: 8px;
+    border: none;
+}
+.boton_agregar{
+    background: rgb(60, 60, 60);
+    color: white;
+}
+.boton_agregar:hover{
+    background: rgb(255, 165, 0)
+;
+    color: white;
+    cursor: pointer;
+}
+
